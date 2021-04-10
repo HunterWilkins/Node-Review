@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 15px;
+}
+
+article {
+    flex: 1;
+    align-self: center;
+    max-width: 700px;
+    display: flex;
+}
+
+article > section {
+    flex: 2;
+}
+
+header {
+    text-align:center;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pigs {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img {
+    max-width: 200px;
+}
+
+footer {
+    text-align:center;
+}
