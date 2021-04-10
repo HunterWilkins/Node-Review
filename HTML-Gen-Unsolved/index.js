@@ -1,4 +1,5 @@
 // To Do: Require inquirer and fs
+//  NOTE: Inquirer needs to be npm installed!
 
 // To Do: Create a Questions Array compatible with Inquirer
 //  (to ask the user what elements they want on the page)
@@ -13,3 +14,5 @@
 // To Do: Create a Function for Generating the HTML based on the answers of the prompt
 
 // Call the function and run the program
+
+// To Do: Modularize Code! Take HTML Generating Function and put it in its own file
